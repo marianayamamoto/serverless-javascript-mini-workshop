@@ -5,7 +5,7 @@
   "scripts": {
     "create": "ibmcloud fn action create helloJavaScript helloJavaScript.js",
     "run": "ibmcloud fn action invoke --result helloJavaScript --param name World",
-    "update" : "ibmcloud fn action update helloJavaScript helloJavaScript.js"
+    "update": "ibmcloud fn action update helloJavaScript helloJavaScript.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,5 @@
     "url": "https://github.com/prpatel/serverless-javascript-mini-workshop/issues"
   },
   "homepage": "https://github.com/prpatel/serverless-javascript-mini-workshop",
-  "dependencies": {
-  }
+  "dependencies": {}
 }
